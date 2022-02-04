@@ -1,5 +1,15 @@
 body
 {
-    margin:auto;
-    max-width: 800px;
+    font-size: 12px;
+    background-color:dimgray;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main
+{
+    max-width: 940px;
+    padding: 0 5px 5px 5px;
+    margin: 0 auto;
+    background-color:grey;
 }
