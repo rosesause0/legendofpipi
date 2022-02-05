@@ -1,0 +1,21 @@
+<header>
+    <script>
+
+// searches for links that match the current page and add the active class
+$(function() {
+  $("[href]").each(function() {
+    if (this.href == window.location.href) {
+      $(this).addClass("active");
+    }
+  });
+});
+
+    </script>
+    <nav>
+        <a href="/">Home</a>
+        <a href="https://twitter.com/PipiFilm">Twitter</a>
+        <a href="/spore/">Spore</a>
+        <a href="/julia/">Julia</a>
+    </nav>
+    <h1>The Legend of Pipi</h1>
+</header>
